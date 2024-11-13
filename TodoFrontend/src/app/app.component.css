@@ -1,0 +1,117 @@
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: inherit;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+/* Center-align everything inside the container */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Title styling */
+.todo-container h1 {
+  text-align: center; 
+  font-size: 4rem; 
+  margin-bottom: 20px; 
+}
+
+.todo-container input, .todo-container button {
+  width: 100%; 
+  padding: 10px;
+  font-size: 1.5rem; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+}
+
+.todo-container button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.todo-container button:hover {
+  background-color: darkgreen;
+}
+
+/* Styling the todo list */
+.todo-container ul {
+  list-style-type: none;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.todo-container li {
+  /* display: block; */
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between; 
+
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: lightgray; 
+}
+
+.todo-container li input[type="checkbox"] {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+}
+
+.todo-container li span {
+  flex: 3; 
+  padding: 0 10px; 
+  word-wrap: break-word;
+  /* flex-grow: 1; */
+  /* width: 70%; */
+  font-size: 1.25rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.todo-container li button {
+  width: 80px;
+  font-size: 1rem;
+  background-color: darkred;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-container li button:hover {
+  background-color: darkred;
+}
+
+.completed {
+  text-decoration: line-through; /* Strike-through completed tasks */
+  color: darkred;
+}

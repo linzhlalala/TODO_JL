@@ -1,0 +1,84 @@
+# Ignore files for C#/.NET projects
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.csproj.user
+*.pidb
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Web App publish settings
+.publishxml
+
+# Node.js projects
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Compiled JavaScript and source maps
+*.js
+*.jsx
+*.map
+
+# Coverage
+coverage/
+
+# IDE and editor config
+.DS_Store
+Thumbs.db
+
+# Specific for MacOS
+*.DS_Store
